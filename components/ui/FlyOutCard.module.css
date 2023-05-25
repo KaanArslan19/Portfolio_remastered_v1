@@ -1,0 +1,43 @@
+.container {
+  position: absolute;
+  z-index: -1;
+  right: 45px;
+  top: 45px;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  width: 300px;
+  height: 350px;
+  background-color: var(--primary-color);
+  box-shadow: 1px 2px 5px rgba(3, 4, 0, 0.3);
+}
+
+.linkItem {
+  color: black;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.linkItem:hover {
+  color: var(--secondary-color);
+}
+
+.list {
+  list-style-type: none;
+  text-transform: capitalize;
+}
+
+.icon {
+  color: var(--secondary-color);
+  font-size: 42px;
+  cursor: pointer;
+}
+
+.button {
+  background-color: transparent;
+  font-weight: 600;
+  color: black;
+  border: none;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}

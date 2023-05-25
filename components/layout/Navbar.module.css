@@ -1,0 +1,19 @@
+.container {
+  width: 100%;
+  position: fixed;
+  padding: 3rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  scroll-snap-align: start;
+}
+
+.icon {
+  color: var(--primary-color);
+  font-size: 42px;
+  cursor: pointer;
+}
+
+.logo {
+  color: var(--primary-color);
+}

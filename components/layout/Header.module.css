@@ -1,0 +1,8 @@
+.section {
+  height: 500px;
+  background-color: var(--gray-color);
+}
+.waves {
+  max-width: 50px;
+  object-fit: fill;
+}
