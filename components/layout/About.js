@@ -6,7 +6,7 @@ const About = () => {
   return (
     <section id="about" className={classes.container}>
       <div className={classes.left}>
-        <h3>Design</h3>
+        <h2>Design</h2>
         <p>
           I design, even though I'm probably not an ordinary designer sitting in
           front of an Illustrator artboard tweaking pixels. You'll find me
@@ -17,8 +17,8 @@ const About = () => {
         <div className={classes.imgContainerLeft}>
           <Image
             src={images.designIcon}
-            width={100}
-            height={100}
+            width={150}
+            height={150}
             alt="engineerIcon"
           />
         </div>
@@ -27,12 +27,12 @@ const About = () => {
         <div className={classes.imgContainer}>
           <Image
             src={images.engineerIcon}
-            width={100}
-            height={100}
+            width={150}
+            height={150}
             alt="engineerIcon"
           />
         </div>
-        <h3>Engineering</h3>
+        <h2>Engineering</h2>
         <p>
           I have the right resources for developing JavaScript applications, and
           I can definitely work without them to produce quick, durable solutions

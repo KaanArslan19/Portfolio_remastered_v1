@@ -1,11 +1,15 @@
 .container {
   width: 100%;
   position: fixed;
-  padding: 3rem;
+  padding: 2rem;
   display: flex;
   justify-content: space-between;
   background-color: transparent;
   scroll-snap-align: start;
+}
+.container h1 {
+  cursor: pointer;
+  color: var(--secondary-color);
 }
 
 .icon {

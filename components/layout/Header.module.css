@@ -1,8 +1,43 @@
 .section {
-  height: 500px;
+  height: 600px;
   background-color: var(--gray-color);
+  display: flex;
+  justify-content: space-between;
+  padding: 8rem 2rem 4rem 2rem;
+}
+@media screen and (max-width: 576px) {
+  .section {
+    flex-wrap: wrap;
+  }
+  .right {
+    margin-top: 2rem;
+  }
 }
 .waves {
-  max-width: 50px;
-  object-fit: fill;
+  max-width: 400px;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 800px;
+}
+
+.left h1 {
+  color: var(--secondary-color);
+  margin-bottom: 1rem;
+}
+.intro {
+  display: flex;
+  max-width: 400px;
+  font-weight: 300;
+}
+
+.content {
+  display: flex;
+  font-weight: 300;
+}
+
+.content p {
+  margin-right: 2rem;
 }

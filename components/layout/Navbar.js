@@ -6,13 +6,9 @@ import FlyOutCard from "../ui/FlyOutCard";
 const Navbar = () => {
   return (
     <main className={classes.container}>
-      <Image
-        className={classes.logo}
-        src={images.logo}
-        width={75}
-        height={75}
-        alt="logo"
-      />
+      <a href="#home">
+        <h1>kaanarslan.dev</h1>
+      </a>
 
       <FlyOutCard />
     </main>

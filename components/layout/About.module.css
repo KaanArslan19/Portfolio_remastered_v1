@@ -5,27 +5,21 @@
   scroll-snap-align: start;
 }
 
-.container h3 {
+@media screen and (max-width: 576px) {
+  .container {
+    flex-wrap: wrap;
+  }
+  .right .left {
+    margin-top: 2rem;
+  }
+}
+
+.container h2 {
   color: var(--primary-color);
   margin-bottom: 0.8rem;
 }
-
-@media screen and (max-width: 992px) {
-  .container p {
-    font-size: 0.7rem;
-    text-overflow: hidden;
-  }
-  .container h3 {
-    font-size: 1rem;
-  }
-}
-@media screen and (min-width: 992px) {
-  .container p {
-    font-size: 1.2rem;
-  }
-  .container h3 {
-    font-size: 1.5rem;
-  }
+.container p {
+  color: var(--gray-color);
 }
 
 .left {
